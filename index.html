@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>App di Alan Gardini</title>
+<meta name="description" content="Le app di Alan Gardini: informazioni, privacy e contatti.">
+<style>
+  :root { --bg:#E3EDB9; --ink:#1A4B3E; --muted:#3D5F52; --card:#EEF4D6; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:40px 16px 64px; }
+  h1 { font-size:30px; margin:0 0 4px; }
+  .muted { color:var(--muted); }
+  .app { display:flex; gap:18px; align-items:center; background:var(--card);
+         border-radius:14px; padding:18px 20px; margin:24px 0; }
+  .app svg { flex:none; }
+  .app h2 { margin:0 0 4px; font-size:20px; }
+  .app p { margin:0 0 8px; }
+  a { color:var(--ink); font-weight:600; }
+  .links a { margin-right:16px; }
+  footer { margin-top:40px; font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>App di Alan Gardini</h1>
+  <p class="muted">Apps by Alan Gardini</p>
+
+  <!-- Una scheda per ogni app: copia questo blocco per aggiungerne altre -->
+  <div class="app">
+    <svg width="64" height="64" viewBox="0 0 100 100" aria-hidden="true">
+      <rect width="100" height="100" rx="23" fill="#E3EDB9" stroke="#1A4B3E" stroke-width="2"/>
+      <rect x="22" y="22" width="56" height="56" rx="9" fill="none" stroke="#1A4B3E" stroke-width="5"/>
+      <path d="M40.7 22v56M59.3 22v56M22 40.7h56M22 59.3h56" stroke="#1A4B3E" stroke-width="3"/>
+      <path d="M59.3 22h9.7a9 9 0 0 1 9 9v9.7H59.3z" fill="#1A4B3E"/>
+    </svg>
+    <div>
+      <h2>Sudoku</h2>
+      <p>Sudoku classico con 5 livelli, suggerimenti spiegati e sfida del giorno.</p>
+      <div class="links">
+        <a href="sudoku/privacy/">Privacy policy</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="muted">
+    Contatti / Contact: <a href="mailto:info@alangardini.com">info@alangardini.com</a> ·
+    <a href="https://www.alangardini.com">www.alangardini.com</a>
+  </footer>
+</main>
+</body>
+</html>
