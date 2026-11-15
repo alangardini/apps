@@ -6,5 +6,6 @@ Contenuto del repository GitHub che pubblica https://apps.alangardini.com
 - `CNAME` – dice a GitHub Pages di rispondere su apps.alangardini.com (non modificarlo)
 - `index.html` – pagina con l'elenco delle app
 - `sudoku/privacy/` – privacy policy di Sudoku
+- `migracontatti/privacy/` – privacy policy di Migra Contatti
 
 Per una nuova app: crea la cartella `nome-app/privacy/index.html` e aggiungi la sua scheda in `index.html`.
