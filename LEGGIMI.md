@@ -7,5 +7,6 @@ Contenuto del repository GitHub che pubblica https://apps.alangardini.com
 - `index.html` – pagina con l'elenco delle app
 - `sudoku/privacy/` – privacy policy di Sudoku
 - `migracontatti/privacy/` – privacy policy di Migra Contatti
+- `dystopian/privacy/` – privacy policy di Dystopian (+ `dystopian/icona.png`)
 
 Per una nuova app: crea la cartella `nome-app/privacy/index.html` e aggiungi la sua scheda in `index.html`.
