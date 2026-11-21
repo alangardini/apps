@@ -6,6 +6,7 @@ Contenuto del repository GitHub che pubblica https://apps.alangardini.com
 - `CNAME` – dice a GitHub Pages di rispondere su apps.alangardini.com (non modificarlo)
 - `index.html` – pagina con l'elenco delle app
 - `sudoku/privacy/` – privacy policy di Sudoku
+- `beastdoku/privacy/` – privacy policy di BeastDoku (+ `beastdoku/icona.png`)
 - `migracontatti/privacy/` – privacy policy di Migra Contatti
 - `dystopian/privacy/` – privacy policy di Dystopian (+ `dystopian/icona.png`)
 
