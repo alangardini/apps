@@ -8,6 +8,7 @@ Contenuto del repository GitHub che pubblica https://apps.alangardini.com
 - `sudoku/privacy/` – privacy policy di Sudoku
 - `beastdoku/privacy/` – privacy policy di BeastDoku (+ `beastdoku/icona.png`)
 - `migracontatti/privacy/` – privacy policy di Migra Contatti
+- `mindpowerup/privacy/` – privacy policy di Mind Power Up (+ `mindpowerup/icona.png`)
 - `dystopian/privacy/` – privacy policy di Dystopian (+ `dystopian/icona.png`)
 
 Per una nuova app: crea la cartella `nome-app/privacy/index.html` e aggiungi la sua scheda in `index.html`.
